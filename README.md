@@ -1,4 +1,9 @@
-# Unity YAML sorter
+# pyunyaml
+
+Sorting the yaml include .asset, .unity(unity scene), .prefab.
+
+- Tested on Unity 5.5.
+- Currently uncertain whether there has any issues.
 
 ## Install
 
@@ -8,8 +13,12 @@
 
 ## How to use
 
+1. Change the Asset Serialization Mode to Force Text. (Edit -> Project setting -> Asset Serialization -> Mode)
+2. Backup all file(.asset|.unity|.prefab) what you want to sort.
+3. Do it.
+
 ```
-python unity_yaml_sorter.py data/path/
+python unity_yaml_sorter.py your/data/path/
 ```
 
 !!! WARNING !!!:
